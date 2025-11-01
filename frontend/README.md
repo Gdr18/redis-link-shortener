@@ -1,10 +1,9 @@
-<h1 align='center'>Redis Link Shortener</h1>
-<p align='center'>
-  <img src='https://imgur.com/jM3G1i7' alt='redis_link_shortener_gif' width='50%'></img>
-</p>
-<p  align='center'>
-  <a href='https://url-shortener-frontend-6tel.onrender.com/' target="_blank" alt='Enlace App'>Demo</a>
-</p><br>
+# 🔗 Redis Link Shortener
+
+<img src='https://i.imgur.com/jM3G1i7.gif' alt='redis_link_shortener_gif' width='50%'></img>
+
+<a href='https://url-shortener-frontend-6tel.onrender.com/' target="_blank" alt='Enlace App'>Demo Redis Link Shortener</a>
+
 
 
 Redis Link Shortener es una app cuya función principal es acortar urls dadas por el usuario.
