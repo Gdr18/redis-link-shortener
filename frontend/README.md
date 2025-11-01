@@ -1,12 +1,53 @@
 <h1 align='center'>Redis Link Shortener</h1>
 <p align='center'>
-  <img src='https://github.com/Gdr18/Url_Shortener_Frontend/assets/118227919/f1ec58ae-b08e-4c36-9b48-e1f791c979a4' alt='redis_link_shortener_gif' width='50%'></img>
+  <img src='https://imgur.com/jM3G1i7' alt='redis_link_shortener_gif' width='50%'></img>
 </p>
 <p  align='center'>
-  <span>Url Frontend: <a href='https://url-shortener-frontend-6tel.onrender.com/' target="_blank" alt='Enlace Frontend'>https://url-shortener-frontend-6tel.onrender.com</a></span>
+  <a href='https://url-shortener-frontend-6tel.onrender.com/' target="_blank" alt='Enlace App'>Demo</a>
 </p><br>
 
-Redis Link Shortener es una app cuya función principal es acortar urls dadas por el usuario.
-Consta tan solo de dos páginas. El home es donde se podrá introducir la url a acortar y nos dará el resultado abajo de la barra del buscador. La segunda página '/urls', nos dará un listado de las urls acortadas hasta el momento.
 
-El frontend está construido con React y SCSS, y el compilador es Vite.
+Redis Link Shortener es una app cuya función principal es acortar urls dadas por el usuario.
+
+## Tecnologías
+- Vite
+- React
+- SCSS
+- Redis
+
+## Características
+- Componente para acortar URLs.
+- Componente para mostrar las URLs acortadas.
+- Componente barra de navegación.
+- Componente de página no encontrada (404).
+
+## Instalación local
+Clona el repositorio:
+```bash
+git clone https://github.com/Gdr18/redis-link-shortener.git
+cd redis-link-shortener
+```
+Instala las dependencias:
+```bash
+npm install
+```
+Configura las variables de entorno creando un archivo `.env` en la raíz del proyecto con las siguientes variables:
+```
+VITE_BACKEND_URL=https://tu_servidor_backend.dev
+```
+
+## Comandos disponibles
+Para iniciar el servidor de desarrollo:
+```bash
+npm run dev
+```
+
+Para hacer el build de producción:
+```bash
+npm run build
+```
+para previsualizar el build de producción:
+```bash
+npm run preview
+```
+
