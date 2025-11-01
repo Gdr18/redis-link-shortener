@@ -1,10 +1,8 @@
 # 🔗 Redis Link Shortener Backend
 
-Backend de Redis Link Shortener (acortador de URLs). Proyecto construido con **Flask** y **Redis** para el almacenamiento de datos.
+<img src='https://i.imgur.com/cIdZi7m.png' alt='redis_link_shortener_gif' width='50%'></img>
 
-<p align='center'>
-  <img src='https://imgur.com/cIdZi7m' alt='redis_link_shortener_gif' width='50%'></img>
-</p>
+Backend de Redis Link Shortener (acortador de URLs). Proyecto construido con **Flask** y **Redis** para el almacenamiento de datos.
 
 ---
 
