@@ -27,7 +27,7 @@ def welcome():
 	return 'Bienvenidx a la API REST de URL Shortener'
 
 
-@app.route('/url', methods=['POST'])
+@app.route('/urls', methods=['POST'])
 def create_url():
 	characters = string.ascii_letters + string.digits
 	url_original = request.get_json().get('urlOriginal')
@@ -47,13 +47,13 @@ def get_urls():
 	return jsonify(urls)
 
 
-@app.route('/url/<url_acortada>', methods=['GET'])
+@app.route('/urls/<url_acortada>', methods=['GET'])
 def get_url(url_acortada):
 	url_original = r.get(url_acortada)
 	return jsonify(url_original)
 
 
-@app.route('/url/<url_acortada>', methods=['DELETE'])
+@app.route('/urls/<url_acortada>', methods=['DELETE'])
 def delete_url(url_acortada):
 	if r.exists(url_acortada):
 		r.delete(url_acortada)
